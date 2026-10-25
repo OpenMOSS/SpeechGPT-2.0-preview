@@ -124,7 +124,7 @@ def main():
     parser.add_argument("--debug_ip", type=str)
     parser.add_argument("--debug_port", type=int)
     parser.add_argument("--debug", default=0, type=int, nargs="?",
-        help='whether debug or not',
+        help='whether to debug or not',
     )
     args = parser.parse_args()
     if args.debug == 1:
